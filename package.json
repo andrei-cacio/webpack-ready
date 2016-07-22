@@ -1,0 +1,25 @@
+{
+  "name": "webpack-ready",
+  "version": "1.0.0",
+  "description": "a ready to go project skeleton based on webpack",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei-cacio/webpack-ready.git"
+  },
+  "author": "Andrei Cacio <andrei.cacio@yahoo.com> (http://andreicacio.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrei-cacio/webpack-ready/issues"
+  },
+  "homepage": "https://github.com/andrei-cacio/webpack-ready#readme"
+}
