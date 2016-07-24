@@ -6,7 +6,7 @@ Whenever I started a new project I always repeated the same steps over and over.
 So I decided to put together a quick project starter for rapid bootstraping.
 
 ## Features
-- React support
+- React support (with hot module replace support)
 - ESnext (ES2015, ES2016, etc.) support (powered by [babel](https://babeljs.io/))
 - TDD support (with [mocha](http://mochajs.org) and [chai](http://chaijs.com))
 - Test coverage support (powered by [istanbul/nyc](https://github.com/istanbuljs/nyc))
