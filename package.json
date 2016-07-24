@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "a ready to go project skeleton based on webpack",
   "main": "index.js",
+  "scripts": {
+    "test": "npm t",
+    "start": "webpack-dev-server --config config/webpack.dev.config.js --content-base public --watch",
+    "lint": "eslint src/**/*.js"
+  },
   "dependencies": {},
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
     "eslint": "^3.1.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "scripts": {
-    "test": "npm t"
   },
   "repository": {
     "type": "git",

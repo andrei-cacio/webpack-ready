@@ -9,3 +9,6 @@ gen
 
 # Deps folder
 node_modules
+
+#Build folder
+build
