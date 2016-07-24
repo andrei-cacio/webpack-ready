@@ -1,8 +1,7 @@
 import './style.less';
 import React from 'react';
 import { render } from 'react-dom';
+import HelloWorld from './components/hello';
 
-const App = (props) => (<div>Hello, {props.who} !</div>);
-
-render(<App who="world" />, document.getElementById('root'));
+render(<HelloWorld who="world" />, document.getElementById('root'));
 
