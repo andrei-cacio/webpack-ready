@@ -3,7 +3,7 @@ A full, ready to go, webpack project skeleton
 
 ### Motivation
 Whenever I started a new project I always repeated the same steps over and over.
-So I decided to put together a quick project starter for rapid bootstraping a project.
+So I decided to put together a quick project starter for rapid bootstraping.
 
 ## Features
 - ESnext (ES2015, ES2016, etc.) support (powered by [babel](https://babeljs.io/))
