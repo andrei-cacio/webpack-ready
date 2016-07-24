@@ -12,10 +12,17 @@ module.exports = {
     modulesDirectories: ['node_modules', 'src']
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint'
+      }
+    ],
     loaders: [
       {
         test: /\.js$/,
-        exclude: /(node_modules)/,
+        exclude: /node_modules/,
         loader: 'babel',
         query: {
           presets: ['es2015']
