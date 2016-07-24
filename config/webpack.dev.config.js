@@ -1,8 +1,12 @@
+const ExtractTestPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
+
+const styleExtractor = new ExtractTestPlugin('style.css');
 
 module.exports = {
   context: path.resolve('./src'),
   entry: 'index.js',
+  devtool: 'sourcemap',
   output: {
     filename: 'bundle.js',
     publicPath: '/assets',
@@ -27,7 +31,12 @@ module.exports = {
         query: {
           presets: ['es2015']
         }
+      },
+      {
+        test: /(\.css|.less)$/,
+        loader: styleExtractor.extract('css!less')
       }
     ]
-  }
+  },
+  plugins: [ styleExtractor ]
 };

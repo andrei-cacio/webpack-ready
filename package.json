@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm t",
     "start": "webpack-dev-server --config config/webpack.dev.config.js --content-base public --watch",
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js",
+    "build": "webpack --config config/webpack.dev.config.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -14,8 +15,13 @@
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
     "eslint": "^3.1.1",
     "eslint-loader": "^1.4.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
