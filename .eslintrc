@@ -3,13 +3,17 @@
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
+      "jsx": true,
       "experimentalObjectRestSpread": true
     }
   },
   "env": {
     "browser": true
   },
+  "plugins": ["react"],
   "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
     "no-case-declarations": "error",
     "no-class-assign": "error",
     "no-cond-assign": "error",
