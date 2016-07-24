@@ -12,3 +12,6 @@ node_modules
 
 #Build folder
 build
+
+#Test coverage report
+.nyc_output
