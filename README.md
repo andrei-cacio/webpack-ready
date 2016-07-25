@@ -9,7 +9,7 @@ So I decided to put together a quick project starter for rapid bootstraping.
 
 ```bash
 $ git clone https://github.com/andrei-cacio/webpack-ready
-$ cd mv webpack-ready my-awesome-new-project
+$ mv webpack-ready my-awesome-new-project # Optional: rename the project folder
 $ cd my-awesome-new-project
 $ npm install
 $ npm start
