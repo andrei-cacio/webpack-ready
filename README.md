@@ -11,6 +11,7 @@ So I decided to put together a quick project starter for rapid bootstraping.
 $ git clone https://github.com/andrei-cacio/webpack-ready
 $ mv webpack-ready my-awesome-new-project # Optional: rename the project folder
 $ cd my-awesome-new-project
+$ git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 $ npm install
 $ npm start
 ```
